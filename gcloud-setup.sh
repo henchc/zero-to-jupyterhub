@@ -29,7 +29,7 @@ repo=$( curl --silent "http://metadata.google.internal/computeMetadata/v1/instan
 
 rm -rf ~/zero-to-jupyterhub
 cd $HOME
-git clone https://github.com/aculich/zero-to-jupyterhub/
+git clone https://github.com/henchc/zero-to-jupyterhub
 
 cd $HOME/zero-to-jupyterhub
 cat > gcloud-config.sh <<EOF
